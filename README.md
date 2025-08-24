@@ -7,14 +7,14 @@ This project analyzes airline delays using:
 - **Power BI** for interactive dashboards and visualizations
 
 ## 🛠 Project Structure
-- `data/` → Raw dataset (CSV)
-- `notebooks/` → Jupyter notebook with EDA
-- `sql/` → SQL schema + analytical queries
-- `scripts/` → Python sync pipeline (Pandas ↔ MySQL)
+- → Raw dataset (CSV)
+- → Jupyter notebook with EDA
+- → SQL schema + analytical queries
+- → Python sync pipeline (Pandas ↔ MySQL)
 - `powerbi/` → Power BI dashboard file
 - `README.md` → Project documentation
 
 ## 🔗 Steps to Run
-1. Import dataset into MySQL using `create_tables.sql`
-2. Run `sync_pipeline.py` to sync Pandas ↔ SQL
+1. Import dataset into MySQL using `SqlQueries.sql`
+2. Run `EDA.py` to sync Pandas ↔ SQL
 3. Open `Airline_Delay.pbix` in Power BI to explore dashboards
